@@ -1,0 +1,189 @@
+<!DOCTYPE html><html lang="en-US" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>2018 | 道德浪女练习薄</title><meta name="author" content="道德浪女"><meta name="copyright" content="道德浪女"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="道德浪女-尤物宝典">
+<meta property="og:type" content="website">
+<meta property="og:title" content="2018">
+<meta property="og:url" content="https://aglaiabambi.github.io/archives/2018/page/8/index.html">
+<meta property="og:site_name" content="道德浪女练习薄">
+<meta property="og:description" content="道德浪女-尤物宝典">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://aglaiabambi.github.io/gallery/site/logoAglaiaBambi.jpg">
+<meta property="article:author" content="道德浪女">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://aglaiabambi.github.io/gallery/site/logoAglaiaBambi.jpg"><script type="application/ld+json"></script><link rel="shortcut icon" href="/gallery/site/logoAglaiaBambi.jpg"><link rel="canonical" href="https://aglaiabambi.github.io/archives/2018/page/8/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="stylesheet" href="/css/index.css?v=5.7.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.3.1/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        const data = { value }
+
+        if (ttl != null) {
+          data.expiry = Date.now() + ttl * 86400000
+        }
+
+        localStorage.setItem(key, JSON.stringify(data))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return
+
+        try {
+          const data = JSON.parse(itemStr)
+
+          if (data.expiry && Date.now() > data.expiry) {
+            localStorage.removeItem(key)
+            return
+          }
+
+          return data.value
+        } catch {
+          localStorage.removeItem(key)
+        }
+      }
+    }
+
+    const scriptCache = new Map()
+    const cssCache = new Map()
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => {
+        if (scriptCache.has(url)) {
+          return scriptCache.get(url)
+        }
+
+        const promise = new Promise((resolve, reject) => {
+          const script = document.createElement('script')
+
+          script.src = url
+          script.async = true
+
+          for (const key in attr) {
+            script.setAttribute(key, attr[key])
+          }
+
+          script.onload = resolve
+          script.onerror = reject
+
+          document.head.appendChild(script)
+        })
+
+        scriptCache.set(url, promise)
+
+        return promise
+      },
+      getCSS: (url, id) => {
+        if (cssCache.has(url)) {
+          return cssCache.get(url)
+        }
+
+        const promise = new Promise((resolve, reject) => {
+          const link = document.createElement('link')
+
+          link.rel = 'stylesheet'
+          link.href = url
+
+          if (id) {
+            link.id = id
+          }
+
+          link.onload = resolve
+          link.onerror = reject
+
+          document.head.appendChild(link)
+        })
+
+        cssCache.set(url, promise)
+
+        return promise
+      },
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const metaThemeColor = document.querySelector('meta[name="theme-color"]')
+      const activateDarkMode = () => {
+        document.documentElement.dataset.theme = 'dark'
+        if (metaThemeColor !== null) {
+          metaThemeColor.setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.dataset.theme = 'light'
+        if (metaThemeColor !== null) {
+          metaThemeColor.setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":true},
+  copy: {
+    success: 'Copy Successful',
+    error: 'Copy Failed',
+    noSupport: 'Browser Not Supported'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: 'Just now',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.13.0/dist/infinitegrid.min.js',
+    buttonText: 'Load More'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '2018',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'archive'
+}</script><meta name="generator" content="Hexo 8.1.1"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/gallery/site/logoAglaiaBambi.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">121</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">22</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">6</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-music"></i><span> Links</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="not-home-page fixed" id="page-header" style="background: linear-gradient(20deg, #0062be, #925696, #cc426e, #fb0347);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">道德浪女练习薄</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-music"></i><span> Links</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="page-site-info"><h1 id="site-title">2018</h1></div></header><main class="layout" id="content-inner"><div id="archive"><div class="article-sort-title">All Articles - 84</div><div class="article-sort"><div class="article-sort-item year">2018</div><div class="article-sort-item"><a class="article-sort-item-img" href="/2018/10/01/bimbo/217-1-bimbo-nipples/" title="激点凸显：一招致命的诱惑"><img src="/gallery/bimbo/217-1-bimbo-nipples.jpg" alt="激点凸显：一招致命的诱惑" onerror="this.onerror=null;this.src='/img/404.jpg'"></a><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2018-09-30T18:17:01.000Z" title="Created 2018-10-01 02:17:01">2018-10-01</time></div><a class="article-sort-item-title" href="/2018/10/01/bimbo/217-1-bimbo-nipples/" title="激点凸显：一招致命的诱惑">激点凸显：一招致命的诱惑</a></div></div><div class="article-sort-item"><a class="article-sort-item-img" href="/2018/10/01/bimbo/217-always-wear-matching-underwear-never-mix/" title="誘惑成套：細節一致才致命"><img src="/gallery/bimbo/217-always-wear-matching-underwear-never-mix.jpg" alt="誘惑成套：細節一致才致命" onerror="this.onerror=null;this.src='/img/404.jpg'"></a><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2018-09-30T18:17:00.000Z" title="Created 2018-10-01 02:17:00">2018-10-01</time></div><a class="article-sort-item-title" href="/2018/10/01/bimbo/217-always-wear-matching-underwear-never-mix/" title="誘惑成套：細節一致才致命">誘惑成套：細節一致才致命</a></div></div><div class="article-sort-item"><a class="article-sort-item-img" href="/2018/10/01/bimbo/216-the-perfect-bimbo-tits-items-push-ups/" title="完美上圍：塑形、提升、吸引"><img src="/gallery/bimbo/216-the-perfect-bimbo-tits-items-push-ups.jpg" alt="完美上圍：塑形、提升、吸引" onerror="this.onerror=null;this.src='/img/404.jpg'"></a><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2018-09-30T18:16:16.000Z" title="Created 2018-10-01 02:16:16">2018-10-01</time></div><a class="article-sort-item-title" href="/2018/10/01/bimbo/216-the-perfect-bimbo-tits-items-push-ups/" title="完美上圍：塑形、提升、吸引">完美上圍：塑形、提升、吸引</a></div></div><div class="article-sort-item"><a class="article-sort-item-img" href="/2018/10/01/bimbo/215-tits-bras-shelf-balcony-neckholder-front-opener/" title="曲線支點：托出最迷人的弧度"><img src="/gallery/bimbo/215-tits-bras-shelf-balcony-neckholder-front-opener.jpg" alt="曲線支點：托出最迷人的弧度" onerror="this.onerror=null;this.src='/img/404.jpg'"></a><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2018-09-30T18:15:15.000Z" title="Created 2018-10-01 02:15:15">2018-10-01</time></div><a class="article-sort-item-title" href="/2018/10/01/bimbo/215-tits-bras-shelf-balcony-neckholder-front-opener/" title="曲線支點：托出最迷人的弧度">曲線支點：托出最迷人的弧度</a></div></div><div class="article-sort-item"><a class="article-sort-item-img" href="/2018/10/01/bimbo/214-Wearing-the-right-panties-the-right-way/" title="貼身内裤：最私密，也最撩人"><img src="/gallery/bimbo/214-Wearing-the-right-panties-the-right-way.jpg" alt="貼身内裤：最私密，也最撩人" onerror="this.onerror=null;this.src='/img/404.jpg'"></a><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2018-09-30T18:14:14.000Z" title="Created 2018-10-01 02:14:14">2018-10-01</time></div><a class="article-sort-item-title" href="/2018/10/01/bimbo/214-Wearing-the-right-panties-the-right-way/" title="貼身内裤：最私密，也最撩人">貼身内裤：最私密，也最撩人</a></div></div><div class="article-sort-item"><a class="article-sort-item-img" href="/2018/10/01/bimbo/213-Wearing-stockings-correctly/" title="“How a bimbo should dress-Wearing stockings correctly”"><img src="/gallery/bimbo/213-Wearing-stockings-correctly.jpg" alt="“How a bimbo should dress-Wearing stockings correctly”" onerror="this.onerror=null;this.src='/img/404.jpg'"></a><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2018-09-30T18:13:13.000Z" title="Created 2018-10-01 02:13:13">2018-10-01</time></div><a class="article-sort-item-title" href="/2018/10/01/bimbo/213-Wearing-stockings-correctly/" title="“How a bimbo should dress-Wearing stockings correctly”">“How a bimbo should dress-Wearing stockings correctly”</a></div></div><div class="article-sort-item"><a class="article-sort-item-img" href="/2018/10/01/bimbo/212-always-choose-stockings/" title="絲襪本能：不只是穿，而是駕馭"><img src="/gallery/bimbo/212-always-choose-stockings.jpg" alt="絲襪本能：不只是穿，而是駕馭" onerror="this.onerror=null;this.src='/img/404.jpg'"></a><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2018-09-30T18:12:12.000Z" title="Created 2018-10-01 02:12:12">2018-10-01</time></div><a class="article-sort-item-title" href="/2018/10/01/bimbo/212-always-choose-stockings/" title="絲襪本能：不只是穿，而是駕馭">絲襪本能：不只是穿，而是駕馭</a></div></div><div class="article-sort-item"><a class="article-sort-item-img" href="/2018/10/01/bimbo/211-1-how-to-learn-and-practice-to-walk-and-move-in-high-heels/" title="高跟舞蹈：让​妳成为全场的亮点"><img src="/gallery/bimbo/211-1-how-to-learn-and-practice-to-walk-and-move-in-high-heels.jpg" alt="高跟舞蹈：让​妳成为全场的亮点" onerror="this.onerror=null;this.src='/img/404.jpg'"></a><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2018-09-30T18:11:01.000Z" title="Created 2018-10-01 02:11:01">2018-10-01</time></div><a class="article-sort-item-title" href="/2018/10/01/bimbo/211-1-how-to-learn-and-practice-to-walk-and-move-in-high-heels/" title="高跟舞蹈：让​妳成为全场的亮点">高跟舞蹈：让​妳成为全场的亮点</a></div></div></div><nav id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/archives/2018/page/7/"><i class="fas fa-chevron-left fa-fw"></i></a><a class="page-number" href="/archives/2018/">1</a><span class="space">&hellip;</span><a class="page-number" href="/archives/2018/page/7/">7</a><span class="page-number current">8</span><a class="page-number" href="/archives/2018/page/9/">9</a><span class="space">&hellip;</span><a class="page-number" href="/archives/2018/page/11/">11</a><a class="extend next" rel="next" href="/archives/2018/page/9/"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/gallery/site/logoAglaiaBambi.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">道德浪女</div><div class="author-info-description">道德浪女-尤物宝典</div><div class="site-data"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">121</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">22</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">6</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://t.me/aglaiabambi"><i class="fa-brands fa-bots"></i><span>Messenger</span></a><div class="card-info-social-icons"><a class="social-icon" href="https://github.com/aglaiabambi/aglaiabambi.github.io/issues" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="https://t.me/aglaiabambi" target="_blank" title="Telegram"><i class="fa-brands fa-telegram" style="color: #4a7dbe;"></i></a><a class="social-icon" href="https://t.me/aglaiabambi" target="_blank" title="Messenger"><i class="fa-brands fa-facebook-messenger" style="color: #24292e;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content"><br>Unleash Your Deepest Desires<br>Submission Starts With You<br>---------<br>挑逗：这样如何？<br>羞辱：​妳怎么变成这样？<br>命令：掀起​妳的裙子！<br>疑问：为什么​妳会脸红？<br>赞美：做的真不错！真是个好女孩！<br><br>---------<br>​妳做到了，夹紧双腿吧！</div></div><div class="sticky_layout"><div class="card-widget card-categories"><div class="item-headline"><i class="fas fa-folder-open"></i><span>Categories</span></div>
+          <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Bimbofication-Courses/"><span class="card-category-list-name">Bimbofication Courses</span><span class="card-category-list-count">85</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Fantasies-Kinks-Mini-Course/"><span class="card-category-list-name">Fantasies Kinks Mini-Course</span><span class="card-category-list-count">5</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Sleep-Release-Mini-Course/"><span class="card-category-list-name">Sleep Release Mini-Course</span><span class="card-category-list-count">5</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/The-Female-Charm-Mini-Course/"><span class="card-category-list-name">The Female Charm Mini-Course</span><span class="card-category-list-count">7</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/The-Submissive-Training-Mini-Course/"><span class="card-category-list-name">The Submissive Training Mini-Course</span><span class="card-category-list-count">14</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/The-XP-sexual-Training-Mini-Course/"><span class="card-category-list-name">The XP-sexual Training Mini-Course</span><span class="card-category-list-count">5</span></a></li>
+          </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>Tags</span></div><div class="card-tag-cloud"><a href="/tags/Bimbo/" style="font-size: 1.21em; color: rgb(199, 50, 50);">Bimbo</a><a href="/tags/My-Body-and-Heart/" style="font-size: 1.3em; color: rgb(160, 95, 50);">My Body and Heart</a><a href="/tags/%E5%B0%A4%E7%89%A9%E8%B5%B0%E5%A7%BF/" style="font-size: 1.3em; color: rgb(182, 191, 50);">尤物走姿</a><a href="/tags/%E5%B0%A4%E7%89%A9%E8%AF%AD%E8%A8%80/" style="font-size: 1.15em; color: rgb(127, 50, 139);">尤物语言</a><a href="/tags/%E5%B0%A4%E7%89%A9%E8%A1%A8%E6%83%85/" style="font-size: 1.21em; color: rgb(106, 114, 50);">尤物表情</a><a href="/tags/Let-Your-Fantasies-Become-Reality/" style="font-size: 1.24em; color: rgb(130, 147, 119);">Let Your Fantasies Become Reality</a><a href="/tags/%E5%B0%A4%E7%89%A9%E6%80%A7%E4%BA%A4/" style="font-size: 1.21em; color: rgb(114, 193, 50);">尤物性交</a><a href="/tags/Bimbo-Definitions/" style="font-size: 1.18em; color: rgb(50, 135, 136);">Bimbo Definitions</a><a href="/tags/%E5%B0%A4%E7%89%A9%E5%BF%83%E6%85%8B/" style="font-size: 1.39em; color: rgb(113, 60, 144);">尤物心態</a><a href="/tags/The-Bimbo-Mindset-and-Ideology/" style="font-size: 1.24em; color: rgb(50, 106, 50);">The Bimbo Mindset and Ideology</a><a href="/tags/The-Bimbo-Appearance-and-Body/" style="font-size: 1.45em; color: rgb(138, 87, 188);">The Bimbo Appearance and Body</a><a href="/tags/%E5%B0%A4%E7%89%A9%E7%A9%BF%E6%90%AD/" style="font-size: 1.36em; color: rgb(50, 106, 110);">尤物穿搭</a><a href="/tags/%E5%B0%A4%E7%89%A9%E5%92%AA%E5%92%AA/" style="font-size: 1.27em; color: rgb(177, 77, 120);">尤物咪咪</a><a href="/tags/The-Bimbo-Action-and-Behaviour/" style="font-size: 1.42em; color: rgb(50, 133, 103);">The Bimbo Action and Behaviour</a><a href="/tags/%E5%B0%A4%E7%89%A9%E5%9D%90%E5%A7%BF/" style="font-size: 1.18em; color: rgb(55, 50, 182);">尤物坐姿</a><a href="/tags/%E5%B0%A4%E7%89%A9%E7%AB%99%E5%A7%BF/" style="font-size: 1.33em; color: rgb(189, 59, 102);">尤物站姿</a></div></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>Website Info</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">Article Count :</div><div class="item-count">121</div></div></div></div></div></div></main><footer id="footer" style="background: linear-gradient(20deg, #0062be, #925696, #cc426e, #fb0347);"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2019 - 2026 By 道德浪女</span><span class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 8.1.1</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.7.0</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="Toggle Between Light and Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle Between Single-column and Double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="Settings"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="Back to Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.7.0"></script><script src="/js/main.js?v=5.7.0"></script><div class="js-pjax"></div><script defer="defer" id="ribbon" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/dist/canvas-ribbon.min.js" size="128" alpha="0.6" zIndex="-1" mobile="true" data-click="false"></script></div></body></html>
